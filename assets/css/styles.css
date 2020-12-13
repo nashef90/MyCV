@@ -1,0 +1,136 @@
+body {
+    background-color: #F2F2F2;
+}
+
+#profile-img {
+    border-radius: 50%;
+    height: 3cm;
+    width: auto;
+    border: 1px solid;
+}
+
+#myName {
+    color: rgb(36, 64, 97);
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+table {
+    width: 100%;
+    font-size: 12pt;
+    font-family: 'Calibri (Body)';
+}
+
+td,
+tr,
+table {
+    /*  border: 1px solid;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile-details-tag {
+    font-weight: bold;
+}
+
+.profile-details-value {}
+
+#profile-details-notes {
+    color: rgb(192, 0, 0);
+}
+
+.splitter16 {
+    background-color: rgb(55, 96, 146);
+    height: 0.16cm;
+    margin: 2px;
+}
+
+.component {
+    margin: 20px;
+    font-size: 11pt;
+    font-family: 'Calibri (Body)';
+}
+
+.title {
+    border-bottom: 1px solid;
+    border-color: rgb(55, 96, 146);
+}
+
+.title-img {
+    margin-right: 4px;
+}
+
+.title-text {
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(36, 64, 97);
+}
+
+.details {}
+
+.title2-text {
+    color: rgb(0, 112, 192);
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.period {
+    color: rgb(0, 112, 192);
+    font-weight: bold;
+    text-align: right;
+    font-size: 11pt;
+}
+
+.location {
+    color: rgb(127, 127, 127);
+}
+
+.details2 {
+    padding-left: 30px;
+}
+
+#RecommendsTable {
+    border: 1px solid;
+    padding: 0px;
+    margin: 0px;
+}
+
+#RecommendsTable {
+    border-collapse: collapse;
+}
+
+#RecommendsTable td,
+#RecommendsTable th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#RecommendsTable th {
+    background-color: rgb(0, 32, 96);
+    color: white;
+}
+
+#RecommendsTable th {
+    background-color: rgb(0, 32, 96);
+    color: white;
+}
+
+#RecommendsTable tr:nth-child(odd) {
+    background-color: white;
+}
+
+#RecommendsTable tr:nth-child(even) {
+    background-color: rgb(219, 229, 241);
+}
+
+.skills-table {
+    border-collapse: collapse;
+}
+
+.skills-table td,
+.skills-table tr,
+.skills-table th {
+    border-bottom: 1px solid #dddddd;
+    vertical-align: middle;
+}
